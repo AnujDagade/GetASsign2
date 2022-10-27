@@ -49,6 +49,27 @@ public class HerdManager {
     // TODO -- Fill your code in here
 
     public void simulateHerd(Random rand) {
+        int snellsInPen = HERD;
+        mOut.println("There are currently "+snellsInPen+ " snails in the pen and " +(HERD-snellsInPen)+ " snails in the pasture");
 
+        for(int i=0; i<10; i++) {
+            if(snellsInPen == HERD) {
+               snellsInPen += mEastGate.thru(rand.nextInt(snellsInPen)+1);
+            } else
+            if(snellsInPen == 0) {
+                snellsInPen += mWestGate.thru(rand.nextInt(HERD)+1);
+            } else
+            {
+                int chGate = rand.nextInt(2)+1;
+                if(chGate == 1) {
+                    snellsInPen += mWestGate.thru(rand.nextInt((HERD - snellsInPen)+1));
+                }
+                else {
+                    snellsInPen += mEastGate.thru(rand.nextInt(snellsInPen)+1);
+                }
+
+            }
+            mOut.println("There are currently "+snellsInPen+ " snails in the pen and " +(HERD-snellsInPen)+ " snails in the pasture");
+        }
     }
 }

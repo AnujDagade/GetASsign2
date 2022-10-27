@@ -22,6 +22,19 @@ public class FillTheCorral {
         mOut = out;
     }
 
+
+
     // TODO -- Fill your code in here
-    
+
+    public void setCorralGates(Gate[] gate, Random rand) {
+
+    }
+
+    public boolean anyCorralAvailable(Gate[] corral) {
+        return true;
+    }
+
+    public int corralSnails(Gate[] corral, Random rand) {
+        return 1;
+    }
 }

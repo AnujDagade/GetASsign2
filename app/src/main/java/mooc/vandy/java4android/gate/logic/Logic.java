@@ -74,7 +74,7 @@ public class Logic
                 corral[i] = new Gate();
 
             randomNumber.setSeed(sRANDOM_SEED);
-            /*
+
             do {
                 // Randomly set the direction of each gate's swing in
                 // the corral array.
@@ -86,7 +86,7 @@ public class Logic
             randomNumber.setSeed(sRANDOM_SEED);
             mFillTheCorral.corralSnails(corral, randomNumber);
 
-             */
+
             break;
 
         case Herd:

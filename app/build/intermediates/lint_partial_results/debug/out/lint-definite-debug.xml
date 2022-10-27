@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.2.0" type="incidents">
+
+    <incident
+        id="InefficientWeight"
+        severity="warning"
+        message="Use a `layout_width` of `0dp` instead of `wrap_content` for better performance">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="20"
+            column="13"
+            startOffset="808"
+            endLine="20"
+            endColumn="48"
+            endOffset="843"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Process&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="29"
+            column="13"
+            startOffset="1141"
+            endLine="29"
+            endColumn="35"
+            endOffset="1163"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Output will show here:&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="45"
+            column="13"
+            startOffset="1652"
+            endLine="45"
+            endColumn="50"
+            endOffset="1689"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/mooc/vandy/java4android/gate/ui/MainActivity.java"
+            line="106"
+            column="25"
+            startOffset="2651"
+            endLine="106"
+            endColumn="56"
+            endOffset="2682"/>
+    </incident>
+
+</incidents>

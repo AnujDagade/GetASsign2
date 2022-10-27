@@ -1,0 +1,7 @@
+mooc.vandy.java4android.gate.logic.test.app-androidTest-0 /mnt/space/work/GetASsign2/app/build/generated/res/resValues/androidTest/debug
+mooc.vandy.java4android.gate.logic.test.app-androidTest-1 /mnt/space/work/GetASsign2/app/build/generated/res/rs/androidTest/debug
+mooc.vandy.java4android.gate.logic.test.app-mergeDebugAndroidTestResources-2 /mnt/space/work/GetASsign2/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+mooc.vandy.java4android.gate.logic.test.app-mergeDebugAndroidTestResources-3 /mnt/space/work/GetASsign2/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+mooc.vandy.java4android.gate.logic.test.app-merged_res-4 /mnt/space/work/GetASsign2/app/build/intermediates/merged_res/debugAndroidTest
+mooc.vandy.java4android.gate.logic.test.app-androidTest-5 /mnt/space/work/GetASsign2/app/src/androidTest/res
+mooc.vandy.java4android.gate.logic.test.app-androidTestDebug-6 /mnt/space/work/GetASsign2/app/src/androidTestDebug/res

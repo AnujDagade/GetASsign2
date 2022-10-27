@@ -30,6 +30,7 @@ public class HerdManager {
      */
     private static final int MAX_ITERATIONS = 10;
 
+    public static final int HERD = 24;
     /**
      * Constructor initializes the fields.
      */
@@ -47,5 +48,7 @@ public class HerdManager {
 
     // TODO -- Fill your code in here
 
-    
+    public void simulateHerd(Random rand) {
+
+    }
 }

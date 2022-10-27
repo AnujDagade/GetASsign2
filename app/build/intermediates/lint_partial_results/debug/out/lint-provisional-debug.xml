@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.2.0" type="conditional_incidents">
+
+    <incident
+        id="IntentFilterExportedReceiver"
+        severity="warning"
+        message="As of Android 12, `android:exported` must be set; use `true` to make the activity \&#xA;available to other apps, and `false` otherwise. For launcher activities, this should be set to `true`.">
+        <fix-attribute
+            description="Set exported=&quot;true&quot;"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="exported"
+            value="true"/>
+        <location
+            file="${:app*debug*sourceProvider*0*manifest*0}"
+            line="11"
+            column="10"
+            startOffset="332"
+            endLine="11"
+            endColumn="18"
+            endOffset="340"/>
+    </incident>
+
+</incidents>

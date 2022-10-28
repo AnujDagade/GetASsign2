@@ -62,7 +62,7 @@ public class HerdManager {
             {
                 int chGate = rand.nextInt(2)+1;
                 if(chGate == 1) {
-                    snellsInPen += mWestGate.thru(rand.nextInt((HERD - snellsInPen)+1));
+                    snellsInPen += mWestGate.thru(rand.nextInt((HERD - snellsInPen))+1);
                 }
                 else {
                     snellsInPen += mEastGate.thru(rand.nextInt(snellsInPen)+1);

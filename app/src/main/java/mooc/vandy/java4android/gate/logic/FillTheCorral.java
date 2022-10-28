@@ -27,6 +27,11 @@ public class FillTheCorral {
     // TODO -- Fill your code in here
 
     public void setCorralGates(Gate[] gate, Random rand) {
+        mOut.println("Initial gate setup");
+        for(int i=0; i<gate.length; i++) {
+            gate[i].setSwing(rand.nextInt(3)-1);
+            mOut.println("Gate "+i+ ": "+gate[i]);
+        }
 
     }
 

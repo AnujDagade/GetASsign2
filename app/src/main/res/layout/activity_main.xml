@@ -31,18 +31,19 @@
     </LinearLayout>
 
     <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/linearLayout5"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout5"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true" android:layout_marginTop="-78dp" android:layout_marginStart="34dp"
+            android:layout_marginEnd="-2dp" android:layout_marginBottom="94dp">
 
         <TextView
-            android:id="@+id/outputET"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Output will show here:"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+                android:id="@+id/outputET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Output will show here:"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
     </ScrollView>
 </RelativeLayout>

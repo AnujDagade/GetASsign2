@@ -56,7 +56,7 @@ public class FillTheCorral {
             }
             pasture -= corral[gate].thru(rand.nextInt(pasture)+1);
 
-            mOut.println(gate+ " are trying to move through corral "+(totalSnails-pasture));
+            mOut.println((totalSnails-pasture)+ " are trying to move through corral "+gate);
 
         }while(pasture != 0);
         return 0;

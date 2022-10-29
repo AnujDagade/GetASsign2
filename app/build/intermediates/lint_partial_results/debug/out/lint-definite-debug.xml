@@ -35,12 +35,12 @@
         message="Hardcoded string &quot;Output will show here:&quot;, should use `@string` resource">
         <location
             file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="45"
-            column="13"
-            startOffset="1652"
-            endLine="45"
-            endColumn="50"
-            endOffset="1689"/>
+            line="46"
+            column="17"
+            startOffset="1838"
+            endLine="46"
+            endColumn="54"
+            endOffset="1875"/>
     </incident>
 
     <incident

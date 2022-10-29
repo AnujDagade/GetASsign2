@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mooc.vandy.java4android.gate.logic.AutoGraderPreview" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-29T13:30:05" hostname="1b0ff2694061" time="0.047">
+<testsuite name="mooc.vandy.java4android.gate.logic.AutoGraderPreview" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-29T13:36:08" hostname="1b0ff2694061" time="0.085">
   <properties/>
-  <testcase name="graderPreview" classname="mooc.vandy.java4android.gate.logic.AutoGraderPreview" time="0.047"/>
+  <testcase name="graderPreview" classname="mooc.vandy.java4android.gate.logic.AutoGraderPreview" time="0.085"/>
   <system-out><![CDATA[
 
 Your assignment HAS NOT BEEN SUBMITTED. The following test results only

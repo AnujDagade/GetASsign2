@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mooc.vandy.java4android.gate.logic.AutoGraderPreview" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-29T13:30:05" hostname="1b0ff2694061" time="0.046">
+  <properties/>
+  <testcase name="graderPreview" classname="mooc.vandy.java4android.gate.logic.AutoGraderPreview" time="0.046"/>
+  <system-out><![CDATA[
+
+Your assignment HAS NOT BEEN SUBMITTED. The following test results only
+estimate your grade.
+
+
+Your estimated score is: 17.0/20
+(This is not your actual grade for this assignment, just an estimate. Your
+official grade will be calculated after you submit your submission.zip file to
+Coursera.
+
+
+------------------------------Assignment Evaluation-----------------------------
+--------Your solution received points for the following grading rubrics:--------
+
+
+testSetGatesIn
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to test SetGatesIn
+Reference: This Test fails when: The Gate was not set to IN
+
+testSetGatesOut
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to test SetGatesOut
+Reference: This Test fails when: The Gate was not set to OUT
+
+testSimulateHerdOutput
+Rubric Score: 3.0/3.0
+Goal: The goal of this evaluation is to test SimulateHerdOutput
+Reference: This Test fails when: The herd.simulateHerd() output was incorrect
+
+test24InHerd
+Rubric Score: 2.0/2.0
+Goal: The goal of this evaluation is to test 24InHerd
+Reference: This Test fails when: The Herd didn't maintain 24 snails upon each
+movement
+
+testAnyCorralAvailable
+Rubric Score: 2.0/2.0
+Goal: The goal of this evaluation is to test anyCorralAvailable
+Reference: This Test fails when anyCorralAvailable() returns the wrong result.
+
+testSetCorralGates
+Rubric Score: 2.0/2.0
+Goal: The goal of this evaluation is to test setCorralGates
+Reference: This Test fails when the gates are not properly set.
+
+testEntryDown
+Rubric Score: 2.0/2.0
+Goal: The goal of this evaluation is to test EntryDown
+Reference: This Test fails when: The Movement thru an IN gate decreased number
+
+testExitUp
+Rubric Score: 2.0/2.0
+Goal: The goal of this evaluation is to test ExitUp
+Reference: This Test fails when: The Movement thru an OUT gate increased number
+
+testClosedNone
+Rubric Score: 2.0/2.0
+Goal: The goal of this evaluation is to test ClosedNone
+Reference: This Test fails when: There was movement thru a gate that was closed
+
+----------Your solution missed points on the following grading rubrics:---------
+
+
+testCorralSnailOutput
+Rubric Score: 0.0/3.0
+Goal: The goal of this evaluation is to test CorralSnailOutput
+Reference: This Test fails when: The corralSnail output was incorrect
+
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

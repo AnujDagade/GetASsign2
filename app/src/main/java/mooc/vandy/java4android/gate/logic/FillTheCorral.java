@@ -36,10 +36,29 @@ public class FillTheCorral {
     }
 
     public boolean anyCorralAvailable(Gate[] corral) {
-        return true;
+        for(int i=0; i<corral.length; i++) {
+            if(corral[i].getSwingDirection() == Gate.IN) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public int corralSnails(Gate[] corral, Random rand) {
-        return 1;
+        int pasture = 5;
+        int totalSnails = 5;
+        int inPen = 0;
+        do{
+            int gate = rand.nextInt(corral.length);
+            corral[gate].setSwing(rand.nextInt(3)-1);
+            if(corral[gate].getSwingDirection() == Gate.OUT && pasture == 5) {
+                continue;
+            }
+            pasture += corral[gate].thru(rand.nextInt(pasture)+1);
+
+            mOut.println(gate+ " are trying to move through corral ");
+
+        }while(pasture != 0);
+        return 0;
     }
 }

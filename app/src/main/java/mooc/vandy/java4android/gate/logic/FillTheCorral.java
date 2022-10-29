@@ -54,9 +54,9 @@ public class FillTheCorral {
             if(corral[gate].getSwingDirection() == Gate.OUT && pasture == 5) {
                 continue;
             }
-            pasture += corral[gate].thru(rand.nextInt(pasture)+1);
+            pasture -= corral[gate].thru(rand.nextInt(pasture)+1);
 
-            mOut.println(gate+ " are trying to move through corral ");
+            mOut.println(gate+ " are trying to move through corral "+(totalSnails-pasture));
 
         }while(pasture != 0);
         return 0;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mooc.vandy.java4android.gate.logic.AutoGraderPreview" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-29T13:36:08" hostname="1b0ff2694061" time="0.085">
+<testsuite name="mooc.vandy.java4android.gate.logic.AutoGraderPreview" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-29T14:40:17" hostname="9b33deac7079" time="0.053">
   <properties/>
-  <testcase name="graderPreview" classname="mooc.vandy.java4android.gate.logic.AutoGraderPreview" time="0.085"/>
+  <testcase name="graderPreview" classname="mooc.vandy.java4android.gate.logic.AutoGraderPreview" time="0.053"/>
   <system-out><![CDATA[
 
 Your assignment HAS NOT BEEN SUBMITTED. The following test results only
@@ -17,16 +17,6 @@ Coursera.
 ------------------------------Assignment Evaluation-----------------------------
 --------Your solution received points for the following grading rubrics:--------
 
-
-testSetGatesIn
-Rubric Score: 1.0/1.0
-Goal: The goal of this evaluation is to test SetGatesIn
-Reference: This Test fails when: The Gate was not set to IN
-
-testSetGatesOut
-Rubric Score: 1.0/1.0
-Goal: The goal of this evaluation is to test SetGatesOut
-Reference: This Test fails when: The Gate was not set to OUT
 
 testSimulateHerdOutput
 Rubric Score: 3.0/3.0
@@ -63,6 +53,16 @@ testClosedNone
 Rubric Score: 2.0/2.0
 Goal: The goal of this evaluation is to test ClosedNone
 Reference: This Test fails when: There was movement thru a gate that was closed
+
+testSetGatesIn
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to test SetGatesIn
+Reference: This Test fails when: The Gate was not set to IN
+
+testSetGatesOut
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to test SetGatesOut
+Reference: This Test fails when: The Gate was not set to OUT
 
 ----------Your solution missed points on the following grading rubrics:---------
 

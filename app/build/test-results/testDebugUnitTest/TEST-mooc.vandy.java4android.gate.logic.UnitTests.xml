@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mooc.vandy.java4android.gate.logic.UnitTests" tests="10" skipped="0" failures="1" errors="0" timestamp="2022-10-29T13:36:08" hostname="1b0ff2694061" time="0.027">
+<testsuite name="mooc.vandy.java4android.gate.logic.UnitTests" tests="10" skipped="0" failures="1" errors="0" timestamp="2022-10-29T14:40:17" hostname="9b33deac7079" time="0.016">
   <properties/>
-  <testcase name="testCorralSnailOutput" classname="mooc.vandy.java4android.gate.logic.UnitTests" time="0.007">
+  <testcase name="testCorralSnailOutput" classname="mooc.vandy.java4android.gate.logic.UnitTests" time="0.001">
     <failure message="java.lang.AssertionError: corralSnails returned the wrong value expected:&lt;0&gt; but was:&lt;5&gt;" type="java.lang.AssertionError">java.lang.AssertionError: corralSnails returned the wrong value expected:&lt;0&gt; but was:&lt;5&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
 	at org.junit.Assert.assertEquals(Assert.java:647)
 	at mooc.vandy.java4android.gate.logic.UnitTests.testCorralSnailOutput(UnitTests.java:245)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
@@ -18,17 +18,17 @@
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.lang.Thread.run(Thread.java:829)
+	at java.base/java.lang.Thread.run(Thread.java:833)
 </failure>
   </testcase>
-  <testcase name="testSimulateHerdOutput" classname="mooc.vandy.java4android.gate.logic.UnitTests" time="0.009"/>
-  <testcase name="test24InHerd" classname="mooc.vandy.java4android.gate.logic.UnitTests" time="0.004"/>
-  <testcase name="testSetCorralGates" classname="mooc.vandy.java4android.gate.logic.UnitTests" time="0.001"/>
+  <testcase name="testSimulateHerdOutput" classname="mooc.vandy.java4android.gate.logic.UnitTests" time="0.003"/>
+  <testcase name="test24InHerd" classname="mooc.vandy.java4android.gate.logic.UnitTests" time="0.003"/>
+  <testcase name="testSetCorralGates" classname="mooc.vandy.java4android.gate.logic.UnitTests" time="0.0"/>
   <testcase name="testSetGatesOut" classname="mooc.vandy.java4android.gate.logic.UnitTests" time="0.0"/>
-  <testcase name="testEntryDown" classname="mooc.vandy.java4android.gate.logic.UnitTests" time="0.001"/>
+  <testcase name="testEntryDown" classname="mooc.vandy.java4android.gate.logic.UnitTests" time="0.0"/>
   <testcase name="testAnyCorralAvailable" classname="mooc.vandy.java4android.gate.logic.UnitTests" time="0.001"/>
-  <testcase name="testExitUp" classname="mooc.vandy.java4android.gate.logic.UnitTests" time="0.0"/>
-  <testcase name="testClosedNone" classname="mooc.vandy.java4android.gate.logic.UnitTests" time="0.0"/>
+  <testcase name="testExitUp" classname="mooc.vandy.java4android.gate.logic.UnitTests" time="0.001"/>
+  <testcase name="testClosedNone" classname="mooc.vandy.java4android.gate.logic.UnitTests" time="0.004"/>
   <testcase name="testSetGatesIn" classname="mooc.vandy.java4android.gate.logic.UnitTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

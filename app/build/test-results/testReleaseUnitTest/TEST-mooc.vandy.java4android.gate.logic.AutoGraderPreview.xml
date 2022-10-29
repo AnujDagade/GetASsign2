@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mooc.vandy.java4android.gate.logic.AutoGraderPreview" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-29T13:36:08" hostname="1b0ff2694061" time="0.046">
+<testsuite name="mooc.vandy.java4android.gate.logic.AutoGraderPreview" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-29T14:40:16" hostname="9b33deac7079" time="0.056">
   <properties/>
-  <testcase name="graderPreview" classname="mooc.vandy.java4android.gate.logic.AutoGraderPreview" time="0.046"/>
+  <testcase name="graderPreview" classname="mooc.vandy.java4android.gate.logic.AutoGraderPreview" time="0.056"/>
   <system-out><![CDATA[
 
 Your assignment HAS NOT BEEN SUBMITTED. The following test results only
@@ -28,6 +28,21 @@ Rubric Score: 1.0/1.0
 Goal: The goal of this evaluation is to test SetGatesOut
 Reference: This Test fails when: The Gate was not set to OUT
 
+testEntryDown
+Rubric Score: 2.0/2.0
+Goal: The goal of this evaluation is to test EntryDown
+Reference: This Test fails when: The Movement thru an IN gate decreased number
+
+testExitUp
+Rubric Score: 2.0/2.0
+Goal: The goal of this evaluation is to test ExitUp
+Reference: This Test fails when: The Movement thru an OUT gate increased number
+
+testClosedNone
+Rubric Score: 2.0/2.0
+Goal: The goal of this evaluation is to test ClosedNone
+Reference: This Test fails when: There was movement thru a gate that was closed
+
 testSimulateHerdOutput
 Rubric Score: 3.0/3.0
 Goal: The goal of this evaluation is to test SimulateHerdOutput
@@ -48,21 +63,6 @@ testSetCorralGates
 Rubric Score: 2.0/2.0
 Goal: The goal of this evaluation is to test setCorralGates
 Reference: This Test fails when the gates are not properly set.
-
-testEntryDown
-Rubric Score: 2.0/2.0
-Goal: The goal of this evaluation is to test EntryDown
-Reference: This Test fails when: The Movement thru an IN gate decreased number
-
-testExitUp
-Rubric Score: 2.0/2.0
-Goal: The goal of this evaluation is to test ExitUp
-Reference: This Test fails when: The Movement thru an OUT gate increased number
-
-testClosedNone
-Rubric Score: 2.0/2.0
-Goal: The goal of this evaluation is to test ClosedNone
-Reference: This Test fails when: There was movement thru a gate that was closed
 
 ----------Your solution missed points on the following grading rubrics:---------
 

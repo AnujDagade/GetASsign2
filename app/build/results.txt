@@ -2,16 +2,6 @@
 --------Your solution received points for the following grading rubrics:--------
 
 
-testSetGatesIn
-Rubric Score: 1.0/1.0
-Goal: The goal of this evaluation is to test SetGatesIn
-Reference: This Test fails when: The Gate was not set to IN
-
-testSetGatesOut
-Rubric Score: 1.0/1.0
-Goal: The goal of this evaluation is to test SetGatesOut
-Reference: This Test fails when: The Gate was not set to OUT
-
 testSimulateHerdOutput
 Rubric Score: 3.0/3.0
 Goal: The goal of this evaluation is to test SimulateHerdOutput
@@ -47,6 +37,16 @@ testClosedNone
 Rubric Score: 2.0/2.0
 Goal: The goal of this evaluation is to test ClosedNone
 Reference: This Test fails when: There was movement thru a gate that was closed
+
+testSetGatesIn
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to test SetGatesIn
+Reference: This Test fails when: The Gate was not set to IN
+
+testSetGatesOut
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to test SetGatesOut
+Reference: This Test fails when: The Gate was not set to OUT
 
 ----------Your solution missed points on the following grading rubrics:---------
 

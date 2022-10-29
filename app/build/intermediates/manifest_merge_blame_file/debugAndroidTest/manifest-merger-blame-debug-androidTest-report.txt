@@ -3,30 +3,30 @@
 3    package="mooc.vandy.java4android.m6_gate_b.test" >
 4
 5    <uses-sdk
-5-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13642474643786604839.xml:5:5-74
+5-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10863069447585594800.xml:5:5-74
 6        android:minSdkVersion="22"
-6-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13642474643786604839.xml:5:15-41
+6-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10863069447585594800.xml:5:15-41
 7        android:targetSdkVersion="30" />
-7-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13642474643786604839.xml:5:42-71
+7-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10863069447585594800.xml:5:42-71
 8
 9    <instrumentation
-9-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13642474643786604839.xml:11:5-15:83
+9-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10863069447585594800.xml:11:5-15:83
 10        android:name="android.test.InstrumentationTestRunner"
-10-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13642474643786604839.xml:11:22-75
+10-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10863069447585594800.xml:11:22-75
 11        android:functionalTest="false"
-11-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13642474643786604839.xml:14:22-52
+11-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10863069447585594800.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13642474643786604839.xml:13:22-53
+12-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10863069447585594800.xml:13:22-53
 13        android:label="Tests for mooc.vandy.java4android.m6_gate_b"
-13-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13642474643786604839.xml:15:22-81
+13-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10863069447585594800.xml:15:22-81
 14        android:targetPackage="mooc.vandy.java4android.m6_gate_b" />
-14-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13642474643786604839.xml:12:22-79
+14-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10863069447585594800.xml:12:22-79
 15
 16    <application android:debuggable="true" >
-16-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13642474643786604839.xml:7:5-9:19
+16-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10863069447585594800.xml:7:5-9:19
 17        <uses-library android:name="android.test.runner" />
-17-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13642474643786604839.xml:8:9-60
-17-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13642474643786604839.xml:8:23-57
+17-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10863069447585594800.xml:8:9-60
+17-->/mnt/space/work/GetASsign2/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10863069447585594800.xml:8:23-57
 18    </application>
 19
 20</manifest>

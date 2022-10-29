@@ -37,10 +37,10 @@
             file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
             line="46"
             column="17"
-            startOffset="1838"
+            startOffset="1686"
             endLine="46"
             endColumn="54"
-            endOffset="1875"/>
+            endOffset="1723"/>
     </incident>
 
     <incident
